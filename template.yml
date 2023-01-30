@@ -1,0 +1,10 @@
+language: c_dpdk
+fprocess: /handler
+build_options:
+  - name: dev
+    packages:
+      - gcc
+welcome_message:
+    You just created a serverless dpdk function based on C!
+    Feel free to add your own functions on function/recv.c file.
+    Don't forget to update Dockerfile if you add new C files. Enjoy!
